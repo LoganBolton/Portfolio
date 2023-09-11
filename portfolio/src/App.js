@@ -1,17 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './components/Header'; // Import the Header component
+import Bio from './components/Bio'; // Import the Bio component
 function App() {
   return (
     <div className="App">
+      <Header /> {/* Add the Header component */}
 
-    <div className="p-6">
-          <h2 className="text-xl font-bold text-gray-800">Card Title</h2>
-          <p className="text-gray-600 mt-2">This is some card content. Tailwind makes it easy to style and layout these elements.</p>
-          <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 border border-blue-700 rounded">
-            Read More
-          </button>
-        </div>
+      <Bio /> {/* Add the Bio component */}
 
     </div>
   );
