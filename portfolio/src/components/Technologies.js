@@ -12,7 +12,7 @@ import csharpIcon from '../images/c-sharp-c-icon-1822x2048-wuf3ijab.png';
 const Technologies = () => {
   return (
     <div className="techList w-full">
-      <div className='techTitle'>
+      <div className='techTitle font-bold text-white text-3xl'>
         <p>Technologies</p>
       </div>
       <div className='tech-list'>
