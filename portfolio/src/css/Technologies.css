@@ -1,9 +1,27 @@
-.tech {
-    background-color: #6596ff;
+.techList {
+    background-color: #cbdbfd;
+    text-align: center;
   }
+
+.techTitle {
+    background-color: #6596ff;
+    text-align: center;
+    padding: 1rem 0;
+}
 
 .technology {
     display: inline-grid;
     justify-items: center;
-    margin: 2rem
+    margin: 2rem;
+    height: 100%;
+    text-align: center;
+
+}
+
+.techList {
+    height: 25rem;
+}
+
+.icon {
+    height: 5rem;
 }
