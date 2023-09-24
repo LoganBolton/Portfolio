@@ -1,0 +1,9 @@
+.tech {
+    background-color: #6596ff;
+  }
+
+.technology {
+    display: inline-grid;
+    justify-items: center;
+    margin: 2rem
+}
