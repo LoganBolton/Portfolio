@@ -1,10 +1,17 @@
-import React from 'react';
+// import React from 'react';
+import React, { useEffect, useState} from 'react';
 import headshot from '../images/headshot.jpeg'; 
 
-
 const Bio = () => {
+  useEffect(() => {
+    console.log("test");
+    document.getElementById('fadeDiv').style.opacity = '1';
+    console.log("test2");
+  }, []);
+
   return (
-      <div className="BioDiv flex gray-600 rounded-lg justify-center h-screen items-center">
+    <div className="BioDiv flex gray-600 rounded-lg justify-center h-screen items-center"  id = "fadeDiv" style={{ opacity: 0, transition: 'opacity 2s ease-in-out' }}>
+
         {/* Headshot */}
         <div className="bioImage w-[13rem] flex items-center">
             <img className="rounded-3xl" src={headshot} />
@@ -23,6 +30,7 @@ const Bio = () => {
               earn a Master's degree in Computer Science. 
             </div>
         </div>
+
       </div>
   );
 };
