@@ -12,11 +12,11 @@ import pythonIcon from '../images/python.png';
 
 const Technologies = () => {
   return (
-    <div className="techList w-full">
-      <div className='techTitle font-bold text-white text-3xl mb-[6rem]'>
+    <div className="techListDiv w-full">
+      <div className='techTitle font-bold text-white text-3xl'>
         <p>Skills</p>
       </div>
-      <div className='tech-list flex justify-center'>
+      <div className='tech-list flex justify-center m-[6rem]'>
         <ul className='flex flex-wrap justify-around items-center w-3/4'>
           <li className='technology bg-white p-4 rounded flex flex-col items-center'>
               <img className="icon" src={htmlIcon} alt="HTML icon"/>

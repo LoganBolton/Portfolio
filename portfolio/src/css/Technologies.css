@@ -1,4 +1,4 @@
-.techList {
+.techListDiv {
     text-align: center;
   }
 
@@ -12,7 +12,7 @@
     display: inline-grid;
     justify-items: center;
     margin: 1rem 2.5rem 2rem 2.5rem;
-    height: 10rem;
+    height: 11rem;
     text-align: center;
     font-weight: bold;
 }
@@ -28,4 +28,8 @@
 
 .technology > span {
     font-size: larger;
+}
+
+.tech-list {
+    max-height: 100%;
 }
