@@ -24,7 +24,7 @@ const Bio = () => {
             
 
             <div className="text-lg">
-              Hi! My name is Logan Bolton. I am a Junior majoring in Software Engineering at Auburn University. I am currently working full time as a co-op student at Auburn
+              Hi! My name is Logan Bolton. I am a Junior majoring in Software Engineering at Auburn University. I am currently working as a co-op student at Auburn
               {' '}<a href="https://cws.auburn.edu/cws" target='_blank' className="text-blue-400 hover:underline">Campus Web Solutions</a>
               . I enjoy weight lifting, listening to music and being around friends. Once I graduate in Spring of 2025, I plan to attend graduate school and
               earn a Master's degree in Computer Science. 

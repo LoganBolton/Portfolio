@@ -9,14 +9,17 @@ import jsIcon from '../images/javascript.png';
 import dotNetIcon from '../images/aspnet.svg';
 import reactIcon from '../images/communityIcon_4g1uo0kd87c61.png';
 import csharpIcon from '../images/c-sharp-c-icon-1822x2048-wuf3ijab.png';
+import jqueryIcon from '../images/jquery.png';
+import pythonIcon from '../images/python.png';
+
 const Technologies = () => {
   return (
     <div className="techList w-full">
       <div className='techTitle font-bold text-white text-3xl'>
-        <p>Technologies</p>
+        <p>Skills</p>
       </div>
-      <div className='tech-list'>
-        <ul className='items-center'>
+      <div className='tech-list flex justify-center'>
+        <ul className='flex flex-wrap justify-around items-center w-3/4'>
           <li className='technology bg-white p-4 rounded flex flex-col items-center'>
               <img className="icon" src={htmlIcon} alt="HTML icon" />
               <span>HTML</span>
@@ -40,6 +43,14 @@ const Technologies = () => {
           <li className='technology bg-white p-4 rounded mt-2 flex flex-col items-center'>
               <img className="icon" src={reactIcon}/>
               <span>React</span>
+          </li>
+          <li className='technology bg-white p-4 rounded mt-2 flex flex-col items-center'>
+              <img className="icon" src={jqueryIcon}/>
+              <span>JQuery</span>
+          </li>
+          <li className='technology bg-white p-4 rounded mt-2 flex flex-col items-center'>
+              <img className="icon" src={pythonIcon}/>
+              <span>Python</span>
           </li>
         </ul>
       </div>
