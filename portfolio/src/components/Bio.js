@@ -10,7 +10,7 @@ const Bio = () => {
   }, []);
 
   return (
-    <div className="BioDiv flex gray-600 rounded-lg justify-center h-screen items-center"  id = "fadeDiv" style={{ opacity: 0, transition: 'opacity 2s ease-in-out' }}>
+    <div className="BioDiv flex gray-600 rounded-lg justify-center h-[95vh] items-center"  id = "fadeDiv" style={{ opacity: 0, transition: 'opacity 2s ease-in-out' }}>
 
         {/* Headshot */}
         <div className="bioImage w-[13rem] flex items-center">
